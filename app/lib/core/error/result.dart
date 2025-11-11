@@ -14,12 +14,17 @@ sealed class Result<T> {
 
   /// Converts the result to another type.
   R map<R>({
-    required R Function(T value) onSuccess,
-    required R Function(Exception error) onFailure,
+    required R Function(T value) success,
+    required R Function(Exception error) failure,
   }) => switch (this) {
-    Success(:final value) => onSuccess(value),
-    Failure(:final error) => onFailure(error),
+    Success(:final value) => success(value),
+    Failure(:final error) => failure(error),
   };
+
+  R when<R>({
+    required R Function(T value) success,
+    required R Function(Exception error) failure,
+  }) => map(success: success, failure: failure);
 
   bool get isSuccess => this is Success<T>;
   bool get isFailure => this is Failure<T>;
