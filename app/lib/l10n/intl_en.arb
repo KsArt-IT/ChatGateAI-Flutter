@@ -1,0 +1,39 @@
+{
+  "@@locale": "en",
+  "lang": "English",
+  "appTitle": "Chat Gate AI",
+  "@appTitle": {
+    "description": "Chat Gate AI."
+  },
+  "copyright": "StudyWay.life",
+  "@copyright": {
+    "description": "Copyright text"
+  },
+
+  "errorSections": "---",
+  "appInitError": "Initialization error.",
+  "unknownError": "Unknown Error.",
+  "networkError": "Check your internet connection.",
+  "signInCancelledError": "Login cancelled by user.",
+  "signInFailedError": "Login error: {message}!",
+  "@signInFailedError": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+
+  "bottonMenuSections": "---",
+  "chatGpt": "chatGpt",
+  "youtube": "youtube",
+  "translate": "translate",
+  "settings": "settings",
+
+  "buttonsSections": "---",
+  "continueBtn": "Continue",
+  "signInWithGoogle": "Sign in with Google",
+  "signOut": "Sign out",
+
+  "n": "---"
+}

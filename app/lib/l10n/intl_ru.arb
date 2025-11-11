@@ -1,0 +1,39 @@
+{
+  "@@locale": "ru",
+  "lang": "Русский",
+  "appTitle": "Chat Gate AI",
+  "@appTitle": {
+    "description": "Chat Gate AI."
+  },
+  "copyright": "StudyWay.life",
+  "@copyright": {
+    "description": "Copyright text"
+  },
+  
+  "errorSections": "---",
+  "appInitError": "Ошибка инициализации.",
+  "unknownError": "Неизвестная ошибка.",
+  "networkError": "Проверьте подключение к интернету.",
+  "signInCancelledError": "Вход отменён пользователем.",
+  "signInFailedError": "Ошибка входа: {message}!",
+  "@signInFailedError": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  
+  "bottonMenuSections": "---",
+  "chatGpt": "chatGpt",
+  "youtube": "youtube",
+  "translate": "translate",
+  "settings": "settings",
+
+  "buttonsSections": "---",
+  "continueBtn": "Продолжить",
+  "signInWithGoogle": "Войти через Google",
+  "signOut": "Выйти",
+
+  "n": "---"
+}
