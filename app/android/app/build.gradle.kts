@@ -8,15 +8,14 @@ plugins {
 android {
     namespace = "life.StudyWay.chat_gate_ai"
     compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
+    ndkVersion = "27.0.12077973"
 
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_21
-        targetCompatibility = JavaVersion.VERSION_21
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
-
     kotlinOptions {
-        jvmTarget = JavaVersion.VERSION_21.toString()
+        jvmTarget = JavaVersion.VERSION_17.toString()
     }
 
     defaultConfig {
@@ -24,7 +23,7 @@ android {
         applicationId = "life.StudyWay.chat_gate_ai"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
-        minSdk = flutter.minSdkVersion
+        minSdk = 24
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
         versionName = flutter.versionName
@@ -41,4 +40,10 @@ android {
 
 flutter {
     source = "../.."
+}
+
+dependencies {
+    // AndroidX dependencies
+    implementation("androidx.core:core-ktx:1.12.0")
+    implementation("androidx.work:work-runtime-ktx:2.9.0")
 }
