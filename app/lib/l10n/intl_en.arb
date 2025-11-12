@@ -35,5 +35,12 @@
   "signInWithGoogle": "Sign in with Google",
   "signOut": "Sign out",
 
+  "settingsSections": "---",
+  "settingsTitle": "Settings",
+  "settingsThemeApp": "Application theme",
+  "settingsSystemMode": "Use system settings",
+  "settingsDarkMode": "Dark mode",
+  "settingsLanguageApp": "Application language",
+
   "n": "---"
 }

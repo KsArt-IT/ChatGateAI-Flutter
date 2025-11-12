@@ -35,5 +35,12 @@
   "signInWithGoogle": "Войти через Google",
   "signOut": "Выйти",
 
+  "settingsSections": "---",
+  "settingsTitle": "Настройки",
+  "settingsThemeApp": "Тема приложения",
+  "settingsSystemMode": "Использовать системные настройки",
+  "settingsDarkMode": "Тёмная тема",
+  "settingsLanguageApp": "Язык приложения",
+
   "n": "---"
 }
