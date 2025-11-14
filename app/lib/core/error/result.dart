@@ -21,7 +21,12 @@ sealed class Result<T> {
     Failure(:final error) => failure(error),
   };
 
-  R when<R>({
+  R match<R>({
+    required R Function(T value) success,
+    required R Function(Exception error) failure,
+  }) => map(success: success, failure: failure);
+
+  R fold<R>({
     required R Function(T value) success,
     required R Function(Exception error) failure,
   }) => map(success: success, failure: failure);
